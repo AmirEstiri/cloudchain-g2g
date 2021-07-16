@@ -1,1 +1,1 @@
-# blockchain-cloud-game-encoder
+# Blockchain based Cloud Gaming Streamer
