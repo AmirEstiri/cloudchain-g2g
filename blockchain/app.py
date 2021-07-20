@@ -2,7 +2,7 @@ from flask import Flask, request
 import requests
 from block import *
 
-app =  Flask(__name__)
+app = Flask(__name__)
 
 blockchain = Blockchain(difficulty=2)
 

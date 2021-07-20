@@ -27,7 +27,6 @@ class Blockchain:
         genesis_block.hash = genesis_block.compute_hash()
         self.chain.append(genesis_block)
 
-    difficulty = 2
     def proof_of_work(self, block):
         block.nonce = 0
         computed_hash = block.compute_hash()
@@ -51,7 +50,7 @@ class Blockchain:
                 block_hash == block.compute_hash())
 
     def add_new_transaction(self, transaction):
-            self.unconfirmed_transactions.append(transaction)
+        self.unconfirmed_transactions.append(transaction)
  
     def mine(self):
         if not self.unconfirmed_transactions:
