@@ -1,0 +1,2 @@
+model_checkpoint_path: "aetransvid-1_10"
+all_model_checkpoint_paths: "aetransvid-1_10"
